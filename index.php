@@ -14,7 +14,6 @@ Request::capture();
 
 // Calling factory class
 $factory    = new PlatformFactory();
-//print_r($factory->products());
 $view       = new View($factory->products());
 (new Response($view))->setContent();
 
