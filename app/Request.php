@@ -6,7 +6,7 @@ namespace App;
 
 class Request
 {
-    public static $parameters = '';
+    public static $parameters = [];
     public static function capture(){
         self::$parameters = $_GET;
         return self::$parameters;
@@ -30,5 +30,9 @@ class Request
 
     public static function getFactoryClass(){
         return ucfirst(self::$parameters['platform'])."Factory";
+    }
+
+    public static function setFormat($format){
+        self::$parameters['format'] = $format;
     }
 }
