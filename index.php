@@ -8,7 +8,11 @@ require_once 'autoload.php';
 /**
  * Geting Request data
  *
- * http://okesmez.com/feed?platform=facebook&format=json&model=product
+ * Facebook XML  : http://case.okesmez.com/api/v1/products/facebook/xml
+ * Facebook JSON : http://case.okesmez.com/api/v1/products/facebook/json
+ * Twitter XML   : http://case.okesmez.com/api/v1/products/twitter/xml
+ * Twitter JSON  : http://case.okesmez.com/api/v1/products/twitter/json
+ * http://feed.okesmez.com/?platform=facebook&format=json
  */
 Request::capture();
 
