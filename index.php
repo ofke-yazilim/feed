@@ -1,5 +1,7 @@
 <?php
 use App\Request;
+use App\Response;
+use App\View;
 use App\Factory\PlatformFactory;
 require_once 'autoload.php';
 
@@ -11,6 +13,10 @@ require_once 'autoload.php';
 Request::capture();
 
 // Calling factory class
-$f = new PlatformFactory();
-print_r($f->products());
+$factory    = new PlatformFactory();
+//print_r($factory->products());
+$view       = new View($factory->products());
+(new Response($view))->setContent();
+
+
 

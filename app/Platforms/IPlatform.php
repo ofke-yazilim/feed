@@ -14,7 +14,7 @@ interface IPlatform
     /**
      * Get all products from products.json
      *
-     * @return array
+     * @return object,array
      */
     public function products();
 }
