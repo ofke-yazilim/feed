@@ -24,7 +24,7 @@ Eğer default olarak eklenmiş olan platformlardan hariç bir platform eklenmek 
 - **/app/Platforms** dizini içerisine istenilen platforma ait class, 
 [IPlatform interfacesine uygun olarak hazırlanır.](https://github.com/ofke-yazilim/feed/blob/main/app/Platforms/IPlatform.php "IPlatform.php"). 
 - **resources/views** dizinin içerisine, yeni platform için bir dizin oluşturulur. 
-Oluşturulan dizine kullanılmak istenen formatlar için gerekli olan dosyalr oluşturulur.
+Oluşturulan dizin içerisinde, kullanılmak istenen response formatlarına uygun dosyalar hazırlanır.
 
 # Response için yeni dosya formatı ekleme
 Mevcutta veriler, Json ve Xml formatta alınabilmektedir. Eğer yeni bir format eklenmek istenirse, öncelikle **resources/views** dizinine gidilir. 
