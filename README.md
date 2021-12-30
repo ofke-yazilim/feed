@@ -1,5 +1,5 @@
 # Feed
-Sosyal medya platformları için  `xml`,`json` vb. formatlarda ürün feedleri hazırlayan taslak hazırlandı. 
+Sosyal medya platformları için  `xml`,`json` vb. formatlarda ürün feedleri oluşturan uygulama taslağı hazırlandı. 
 - Factory design pattern kullanılarak hangi platforma ait ürün listesi alınacağı belirlendi. Mevcutta Facebook ve Twitter var.
 - Kurulan basit view mantığı ile farklı formatlarda veri çıkışının olması sağlandı. Mevcutta sadece json ve xml var.
 - Ürün listesi [products.json](https://github.com/ofke-yazilim/feed/blob/main/includes/products.json "Ürünler") dosyası kullanılarak hazırlandı.
