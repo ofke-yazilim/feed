@@ -20,8 +20,11 @@ Sosyal medya platformları için  `xml`,`json` vb. formatlarda ürün feedleri h
  - [Without rewrite](http://case.okesmez.com/?platform=facebook&format=json)
  
 # Yeni platform ekleme
-Eğer default olarak eklemiş olduğum platformlardan hariç bir platform eklenilmek istenirse. **/app/Platforms** dizini içerisine istenilen platforma ait class, 
+Eğer default olarak eklenmiş olan platformlardan hariç bir platform eklenmek istenirse:
+- **/app/Platforms** dizini içerisine istenilen platforma ait class, 
 [IPlatform interfacesine uygun olarak hazırlanır.](https://github.com/ofke-yazilim/feed/blob/main/app/Platforms/IPlatform.php "IPlatform.php"). 
+- **resources/views** dizinin içerisine, yeni platform için bir dizin oluşturulur. 
+Oluşturulan dizine kullanılmak istenen formatlar için gerekli olan dosyalr oluşturulur.
 
 # Response için yeni dosya formatı ekleme
 Mevcutta veriler, Json ve Xml formatta alınabilmektedir. Eğer yeni bir format eklenmek istenirse, öncelikle **resources/views** dizinine gidilir. 
