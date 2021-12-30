@@ -27,5 +27,5 @@ Eğer default olarak eklenmiş olan platformlardan hariç bir platform eklenmek 
 Oluşturulan dizin içerisinde, kullanılmak istenen response formatlarına uygun dosyalar hazırlanır.
 
 # Response için yeni dosya formatı ekleme
-Mevcutta; veriler, Json ve Xml formatlarında alınabilmektedir. Eğer yeni bir format eklenmek istenirse, öncelikle **resources/views** dizinine gidilir. 
+Mevcut projede veriler, Json ve Xml formatlarında alınabilmektedir. Eğer yeni bir format eklenmek istenirse, öncelikle **resources/views** dizinine gidilir. 
 Yeni format eklenilmek istenilen platforma ait dizin açılır ve yeni formatın hazırlanmasını sağlayacak dosya oluşturulur.
