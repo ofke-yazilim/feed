@@ -1,6 +1,6 @@
 # Feed
 Sosyal medya platformları için  `xml`,`json` vb. formatlarda ürün feedleri hazırlayan taslak hazırlandı. 
-- Factory Desing pattern kullanılarak hangi platforma ait ürün listesi alınacağı belirlendi. Mevcutta Facebook ve Twitter var.
+- Factory design pattern kullanılarak hangi platforma ait ürün listesi alınacağı belirlendi. Mevcutta Facebook ve Twitter var.
 - Kurulan basit view mantığı ile farklı formatlarda veri çıkışının olması sağlandı. Mevcutta sadece json ve xml var.
 - Ürün listesi [products.json](https://github.com/ofke-yazilim/feed/blob/main/includes/products.json "Ürünler") dosyası kullanılarak hazırlandı.
 
@@ -17,7 +17,7 @@ Sosyal medya platformları için  `xml`,`json` vb. formatlarda ürün feedleri h
  - [Facebook JSON](http://case.okesmez.com/api/v1/products/facebook/json)
  - [Twitter XML](http://case.okesmez.com/api/v1/products/twitter/xml)
  - [Twitter JSON](http://case.okesmez.com/api/v1/products/twitter/json)
- - [without rewrite](http://case.okesmez.com/?platform=facebook&format=json)
+ - [Without rewrite](http://case.okesmez.com/?platform=facebook&format=json)
  
 # Yeni platform ekleme
 Eğer default olarak eklemiş olduğum platformlardan hariç bir platform eklenilmek istenirse. **/app/Platforms** dizini içerisine istenilen platforma ait class, 
